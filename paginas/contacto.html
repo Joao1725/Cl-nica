@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../css/estilosContacto.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagenes/Logo.png" alt="logo de la compañia">
+        </div>
+        <nav>
+            <center>
+                <a href="../index.html" class="nav-link">INICIO</a>
+                <a href="../paginas/servicios.html" class="nav-link">SERVICIOS</a>
+                <a href="#" class="nav-link">GALERIA</a>
+                <a href="../paginas/contacto.html" class="nav-link">CONTACTO</a>
+                <a href="../paginas/nosotros.html" class="nav-link">SOBRE NOSOTROS</a>
+            </center>
+        </nav>
+    </header>
+    <div class="formulario">
+    <center><h2>Formulario de Contacto</h2> </center>
+    <br>
+    <br>
+            
+        <form action="#" method="post">
+            <center>
+                <label for="nombre">Nombre de usuario:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            </center>
+            
+<center>
+    <label for="telefono">Número de teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+</center>
+            
+<center>
+    <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+</center>
+            
+<center>
+    <label for="servicio">Tipo de servicio:</label>
+    <select id="servicio" name="servicio">
+        <option value="Servicio 1">Servicio 1</option>
+        <option value="Servicio 2">Servicio 2</option>
+        <option value="Servicio 3">Servicio 3</option>
+    </select>
+</center>
+         <br>
+         <br>
+
+<center>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+    
+</center>
+<center><input type="submit" value="Enviar"> </center>
+
+            
+        </form>
+    </div>
+</body>
+</html>

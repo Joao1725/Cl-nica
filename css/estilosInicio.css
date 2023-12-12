@@ -1,0 +1,176 @@
+/*RESETEAR LOS CSS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/**********************************/
+/*TRABAJANDO CON LA CABECERA*/
+.cabecera{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: rgb(75, 197, 215);
+}
+.cabecera h1{
+    font: bod 54px Arial,sans-serif;
+    background-color: rgb(75, 197, 215);
+}
+.cabecera > div{
+    flex: 1;
+    max-width: 960px;
+    padding-top: 45px;
+    color: black;
+}
+
+/************************/
+/*TRABAJANDO CON EL MENU*/
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color:#63d4F0 ;
+    border-top: 1px solid #03222a;
+    border-bottom: 1px solid #03222a;
+
+}
+.menu >div{
+    flex: 1;
+    max-width: 960px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+.menu li:hover{
+    background-color: #1836dc;
+    border-bottom: 3px solid #03222a26;
+}
+.menu a{
+    font: bold 18px Arial, sans-serif; 
+    color: rgb(2, 7, 43);
+    text-decoration: none;
+}
+
+/**************************/
+/*TRABAJANDO CON EL CUERPO*/
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-color: rgb(75, 197, 215);
+}
+
+main > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+}
+.cuerpo{
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: rgb(26, 159, 183);
+    border-radius: 10px;
+}
+.infoAdicional{
+    width: 280px;
+    padding: 20px;
+    background-color: rgb(26, 159, 183);
+    border-radius: 10px;
+}
+.infoAdicional h1{
+    font: bold 18px Arial, sans-serif;
+    color: #050700;
+    margin-bottom: 15px;
+}
+
+/******************************/
+/*TRABAJANDO CON LOS ARTICULOS*/
+
+
+article{
+    border: 5px solid black;
+    overflow: auto;
+    margin: 10px;
+}
+.noticia1 {
+   float: left;
+   margin: 0px 10px;
+   border-color: rgb(26, 159, 183);
+}
+.borrarFloat{
+    clear: both;
+}
+.noticia2 {
+   float: left;
+   margin: 0px 10px;
+   border-color:  rgb(26, 159, 183);
+}
+.noticia3 {
+    float: left;
+    margin: 0px 10px;
+    border-color: rgb(26, 159, 183);
+}
+.noticia4 {
+    float: left;
+    margin: 0px 10px;
+    border-color: rgb(26, 159, 183);
+}
+.noticia5 {
+    float: left;
+    margin: 0px 10px;
+    border-color: rgb(26, 159, 183);
+}
+
+/*******************************************/
+
+/*TRABAJANDO CON EL FOOTER*/
+
+.pie{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-color: #09b7e3;
+}
+
+.pie > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+    background-color: #407d8d;
+    border-radius: 10px;
+}
+
+.seccionpie{
+    flex: 1;
+    padding: 25px;
+    background-color: rgb(75, 197, 215);
+}
+
+.seccionpie h1 {
+    font: bold 20px Arial, sans-serif;
+}
+
+.seccionpie p {
+    margin-top: 5px;
+}
+
+.seccionpie a {
+    font: bold 16px Arial, sans-serif;
+    color: #050700;
+    text-decoration: none;
+}
